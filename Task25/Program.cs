@@ -13,7 +13,7 @@ int InputNum(string text)
 int Exponentiation(int number, int degree)
 {
     int tempExpo = 1;
-    for (int i = 0; i < degree; i++)
+    for(int i = 0; i < degree; i++)
     {
         tempExpo *= number;
     

@@ -10,11 +10,11 @@ int InputNum(string text)
     return tempNum;
 }
 
-int SumNumbers (int n)
+int SumNumbers(int n)
 {
     int sum = 0;
-    if (n < 0) n *= -1;
-    for (int i = 0; n > 0; i++)
+    if(n < 0) n *= -1;
+    for(int i = 0; n > 0; i++)
     {
         sum = n % 10 + sum;
         n /= 10;
